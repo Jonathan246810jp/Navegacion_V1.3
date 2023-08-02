@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:vm="clr-namespace:Navegacion_V1._3.ViewModels"
+              x:DataType="vm:ViewModel"
+             x:Class="Navegacion_V1._3.SegundaaPage"
+             Title="SegundaaPage">
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button
+                x:Name="CounterBtn"
+                Text="Click me"
+                BackgroundColor="red"
+                Command="{Binding Segunda}"
+                
+                />
+    </VerticalStackLayout>
+</ContentPage>
